@@ -20,10 +20,11 @@ public class ListService {
     }
 
     public String NumLetterS(String word){
+        String letter = "";
         for (int i = 0; i < word.length(); i++){
-           word += i + " - " + word.charAt(i) + "\n";
+           letter += i + " - " + word.charAt(i) + " ";
         }
-     return word;
+     return letter;
     }
 
 }
